@@ -1,0 +1,80 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    color: cornflowerblue;
+}
+header{
+    background-color: rgb(170, 111, 229);
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+    
+}
+.logo{
+        font-size: 1.5rem;
+        text-decoration: none;
+        color: white;
+        font-weight: bold;
+        transition: all 0.3s;
+}
+.logo:hover{
+    color: slategray;
+}
+nav ul{
+list-style: none;
+}
+.btnUpload{
+    text-decoration: none;
+    color: white;
+    list-style: none;
+    font-size: 1.5rem;
+    font-weight: bold;
+    transition: all 0.3s;
+
+}
+.btnUpload:hover{
+    color: slategray;
+}
+h1{
+    text-align: center;
+    color: green;
+    font-size: 50px;
+    text-decoration:  2px underline double black;
+}
+
+.upload{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+}
+
+.uploadContainer{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    border-radius: 6px ;
+    background-color: #f2f2f2;
+}
+
+.upload input{
+    padding: 10px;
+    font-size: 1rem ;
+    border: none;
+    border-radius: 6px;
+
+}
+
+.upload button:hover{
+    background-color: rgb(186, 48, 232);
+    color: white;
+    cursor: pointer;
+    border: none;
+
+}
